@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_welcome"
+    android:background="@drawable/cover2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+    android:layout_width="match_parent"
+    android:id="@+id/slidingmenu"
+    app:mode="left"
+    android:layout_height="match_parent">
+</com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@drawable/toolbar"
+        android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avart"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="60dp"
+            fresco:roundAsCircle="true"
+            android:layout_height="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:text="关系列表"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <ExpandableListView
+        android:layout_below="@id/toolbar"
+        android:id="@+id/friendlist"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ExpandableListView>
+</RelativeLayout>

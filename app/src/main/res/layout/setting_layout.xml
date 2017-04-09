@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:paddingLeft="20dp"
+        android:text="et_name"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/et_avart"
+        android:text="et_avart"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/et_rank"
+        android:text="rank"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_updata"
+        android:text="go"
+        android:layout_height="wrap_content" />
+</LinearLayout>

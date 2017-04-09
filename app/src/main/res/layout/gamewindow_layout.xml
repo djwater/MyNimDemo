@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <com.example.administrator.mynimdemo.view.Map
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp" />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p1_1"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="greenOnclick1"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p1_2"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="greenOnclick2"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p1_3"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="greenOnclick3"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p1_4"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="greenOnclick4"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p2_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="redOnclick1"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p2_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="redOnclick2"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p2_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="redOnclick3"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p2_4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="redOnclick4"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p3_1"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="buleOnclick1"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p3_2"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="buleOnclick2"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p3_3"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="buleOnclick3"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p3_4"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="buleOnclick4"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p4_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="yellowOnclick1"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p4_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="yellowOnclick2"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p4_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="yellowOnclick3"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/p4_4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/cover"
+        android:clickable="true"
+        android:onClick="yellowOnclick4"
+        android:visibility="gone"
+        fresco:roundAsCircle="true" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="160dp"
+        android:text="添加"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn" />
+
+    <EditText
+        android:id="@+id/et_id"
+        android:textColor="#fff"
+        android:autoLink="none"
+        android:textColorLink="@null"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/btn_search"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="请输入好友id"
+        android:textColorHint="#f0f0f0"
+        android:textSize="18sp" />
+</RelativeLayout>

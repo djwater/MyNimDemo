@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="60sp"
+        fresco:roundAsCircle="true"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/avart"
+        android:layout_height="60sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/avart"
+        android:textSize="25sp"
+        android:id="@+id/name"
+        android:text="name"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/info"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/avart"
+        android:textSize="18sp"
+        android:text="info"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_below="@id/avart"
+        android:background="#e8e8e8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</RelativeLayout>

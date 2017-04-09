@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/btn_back"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="创建房间"
+            android:textSize="36sp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/roomSeting_ly"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/tv_roomName"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="房间名"
+            android:layout_height="45dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/tv_roomName"
+            android:id="@+id/et_roomName"
+            android:textSize="25sp"
+            android:textColorHint="#f0f0f0"
+            android:hint="请输入房间名"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/tx_password"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_below="@id/tv_roomName"
+            android:text="密码"
+            android:layout_height="45dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/tv_roomName"
+            android:id="@+id/et_password"
+            android:layout_below="@id/et_roomName"
+            android:textSize="25sp"
+            android:textColorHint="#f0f0f0"
+            android:hint="请输入房间密码"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/tv_peopleNum"
+            android:gravity="center"
+            android:layout_below="@id/et_password"
+            android:textSize="25sp"
+            android:text="人数"
+            android:layout_height="45dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/tv_roomName"
+            android:id="@+id/et_peopleNum"
+            android:textSize="25sp"
+            android:layout_below="@id/et_password"
+            android:textColorHint="#f0f0f0"
+            android:hint="请输入人数"
+            android:layout_height="45dp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/tv_notice"
+            android:layout_below="@id/et_peopleNum"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="公告:"
+            android:layout_height="45dp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_below="@id/et_peopleNum"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/tv_roomName"
+            android:id="@+id/et_notice"
+            android:textSize="25sp"
+            android:textColorHint="#f0f0f0"
+            android:hint="请输入房间公告"
+            android:layout_height="45dp" />
+<Button
+    android:id="@+id/btn_create"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/create_btn"
+    android:layout_below="@id/et_notice"
+    android:layout_width="100dp"
+    android:text="创建"
+    android:layout_height="100dp" />
+    </RelativeLayout>
+</LinearLayout>

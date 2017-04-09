@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="@drawable/window"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:src="@drawable/exit"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="-10dp"
+    android:id="@+id/icon"
+    android:layout_width="100dp"
+    android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/warning"
+        android:layout_below="@id/icon"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:text="退出，are you sure?"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/warning"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_yes"
+            android:textSize="18sp"
+            android:text="退出"
+            android:layout_width="100dp"
+            android:background="@drawable/btn"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btn_no"
+            android:textSize="18sp"
+            android:text="取消"
+            android:layout_width="100dp"
+            android:background="@drawable/btn"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+</RelativeLayout>
